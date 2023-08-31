@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-31T05:44:28 IST" name="Suite" finished-at="2023-08-31T05:50:54 IST" duration-ms="385586">
+    <groups>
+    </groups>
+    <test started-at="2023-08-31T05:44:28 IST" name="All tests" finished-at="2023-08-31T05:50:54 IST" duration-ms="385586">
+      <class name="testCases._07_Like_thread_reply">
+        <test-method signature="test()[pri:0, instance:testCases._07_Like_thread_reply@6b2ea799]" started-at="2023-08-31T05:48:24 IST" name="test" finished-at="2023-08-31T05:49:11 IST" duration-ms="47422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testCases._07_Like_thread_reply -->
+      <class name="testCases._02_Post_thread_501_characters">
+        <test-method signature="test()[pri:0, instance:testCases._02_Post_thread_501_characters@5e0e82ae]" started-at="2023-08-31T05:46:14 IST" name="test" finished-at="2023-08-31T05:46:36 IST" duration-ms="22579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testCases._02_Post_thread_501_characters -->
+      <class name="testCases._06_Post_thread_reply_option_Profiles_you_mention">
+        <test-method signature="test()[pri:0, instance:testCases._06_Post_thread_reply_option_Profiles_you_mention@51399530]" started-at="2023-08-31T05:47:35 IST" name="test" finished-at="2023-08-31T05:48:24 IST" duration-ms="48971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testCases._06_Post_thread_reply_option_Profiles_you_mention -->
+      <class name="testCases._03_Post_thread_bilingual_LTR_RTL">
+        <test-method signature="test()[pri:0, instance:testCases._03_Post_thread_bilingual_LTR_RTL@30c15d8b]" started-at="2023-08-31T05:45:54 IST" name="test" finished-at="2023-08-31T05:46:14 IST" duration-ms="19824" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [ltr] but found [rtl]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [ltr] but found [rtl]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testCases._03_Post_thread_bilingual_LTR_RTL.test(_03_Post_thread_bilingual_LTR_RTL.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testCases._03_Post_thread_bilingual_LTR_RTL -->
+      <class name="testCases._01_Post_thread_500_characters">
+        <test-method signature="test()[pri:0, instance:testCases._01_Post_thread_500_characters@2d3379b4]" started-at="2023-08-31T05:45:32 IST" name="test" finished-at="2023-08-31T05:45:54 IST" duration-ms="22359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testCases._01_Post_thread_500_characters -->
+      <class name="testCases._05_Post_thread_reply_option_Profiles_you_follow">
+        <test-method signature="test()[pri:0, instance:testCases._05_Post_thread_reply_option_Profiles_you_follow@41d477ed]" started-at="2023-08-31T05:44:29 IST" name="test" finished-at="2023-08-31T05:45:32 IST" duration-ms="63149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testCases._05_Post_thread_reply_option_Profiles_you_follow -->
+      <class name="testCases._04_Post_thread_reply_option_Anyone">
+        <test-method signature="test()[pri:0, instance:testCases._04_Post_thread_reply_option_Anyone@6771beb3]" started-at="2023-08-31T05:46:36 IST" name="test" finished-at="2023-08-31T05:47:35 IST" duration-ms="58403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testCases._04_Post_thread_reply_option_Anyone -->
+      <class name="testCases._08_Delete_thread_reply">
+        <test-method signature="test()[pri:0, instance:testCases._08_Delete_thread_reply@411f53a0]" started-at="2023-08-31T05:49:11 IST" name="test" finished-at="2023-08-31T05:50:03 IST" duration-ms="51255" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1066)
+at org.testng.Assert.assertEquals(Assert.java:1096)
+at testCases._08_Delete_thread_reply.test(_08_Delete_thread_reply.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testCases._08_Delete_thread_reply -->
+      <class name="testCases._09_Repost_thread_reply">
+        <test-method signature="test()[pri:0, instance:testCases._09_Repost_thread_reply@2b71e916]" started-at="2023-08-31T05:50:03 IST" name="test" finished-at="2023-08-31T05:50:54 IST" duration-ms="51391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testCases._09_Repost_thread_reply -->
+    </test> <!-- All tests -->
+  </suite> <!-- Suite -->
+</testng-results>

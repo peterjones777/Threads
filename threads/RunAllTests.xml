@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite">
+  <test thread-count="1" name="All tests">
+    <classes>
+      <class name="testCases._05_Post_thread_reply_option_Profiles_you_follow"/>
+      <class name="testCases._01_Post_thread_500_characters"/>
+      <class name="testCases._03_Post_thread_bilingual_LTR_RTL"/>
+      <class name="testCases._02_Post_thread_501_characters"/>
+      <class name="testCases._04_Post_thread_reply_option_Anyone"/>
+      <class name="testCases._06_Post_thread_reply_option_Profiles_you_mention"/>
+      <class name="testCases._07_Like_thread_reply"/>
+      <class name="testCases._08_Delete_thread_reply"/>
+      <class name="testCases._09_Repost_thread_reply"/>
+    </classes>
+  </test> <!-- All tests -->
+</suite> <!-- Suite -->
